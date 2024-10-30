@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.car_header {
+    background-color: #fff;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 1px #000;
+    display:flex;
+    justify-content: space-between;
+}
+.car_label {
+    margin: 30px 0 0 50px;
+}
+.car_label a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #0094f3;
+}
+.car_label2{
+    font-size: 16px;
+    text-decoration: none;
+    color: #0094f3;
+    margin: 30px 50px 0 0;
+}
+
+.car_contents {
+    display: flex;
+    width: 60%;
+    margin: 60px auto 100px auto;
+    border: 1px solid #0094f3;
+    height: 400px;
+}
+fieldset {
+    border: none; /* Thiết lập border thành không có */
+}
+.contents_information {
+    flex: 0 0 60%;
+    font-weight: 600;
+}
+.car_img{
+    flex: 0 0 40%;
+    border-left: 0.2px solid #0094f3;
+    
+}
+.img_main {
+    width: 100%;
+    height: 85%;
+}
+.img_big {
+    width: 100%;
+    height: 99%;
+}
+.car_img_list {
+    width: 100%;
+    height: 15%;
+    list-style-type: none;
+    display: flex;
+}
+.list_img1 {
+    flex:0 0 24%;
+    margin: 0 2px;
+    position: relative;
+    
+}
+.list_img2 {
+    flex:0 0 24%;
+    margin: 0 2px;
+    position: relative;
+    
+}
+.list_img3 {
+    flex:0 0 24%;
+    margin: 0 2px;
+    position: relative;
+    
+}
+.list_img4 {
+    flex:0 0 24.5%;
+    margin: 0 2px;
+    position: relative;
+    
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+    
+}
+.img2 {
+    width: 100%;
+    height: 100%;
+    
+}
+.img3 {
+    width: 100%;
+    height: 100%;
+    
+}
+.img4 {
+    width: 100%;
+    height: 100%;
+    
+}
+.img1_hover,.img2_hover,.img3_hover,.img4_hover{
+    position: absolute;
+
+}
+.img1_hover {
+    top: -339px;
+    left: 0;
+    width: 366px;
+    height: 337px;
+    display: none;
+}
+.img2_hover {
+    width: 366px;
+    height: 340px;
+    top: -339px;
+    left: -92px;
+    display: none;
+}
+.img3_hover {
+    display: none;
+    width: 364px;
+    height: 337px;
+    top: -339px;
+    left: -183px;
+}
+.img4_hover {
+    display: none;
+    width: 364px;
+    height: 335px;
+    top: -339px;
+    left: -274px;
+}
+.list_img1:hover .img1_hover{
+    display: block;
+}
+.list_img2:hover .img2_hover{
+    display: block;
+}
+.list_img3:hover .img3_hover{
+    display: block;
+}
+.list_img4:hover .img4_hover{
+    display: block;
+}
+
+.car_company_main{
+    margin: 40px 0 30px 40px;
+    color:#0769a6;
+}
+.car_company_main input{
+    margin-left: 20px;
+} 
+.car_seats {
+    margin: 60px 0 30px 40px;
+    color:#0769a6;
+}
+.car_seats input{
+    margin-left: 20px;
+}
+.seat {
+}
+.car_color {
+    margin: 60px 0 30px 40px;
+    color:#0769a6;
+}
+.car_color input{
+    margin-left: 20px;
+}
+.color {
+}
+.day {
+    display: flex;
+    margin: 60px 0 30px 59px;
+    align-items: center;
+}
+.day_start {
+    margin-right: 20px;
+}
+.day_start input{
+    padding: 4px 10px;
+}
+.day_end {
+
+}
+.day_end input{
+    padding: 4px 10px;
+}
+.car_search {
+    padding: 8px 20px;
+    width: 430px;
+    color: #fff;
+    background-color: #0094f3;
+    border: none;
+    margin-left: 57px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/**/
+.car_ticket {
+    width: 65%;
+    margin: 30px auto 100px auto;
+}
+.ticket_box{
+    display: flex;
+    border: 1px solid #0094f3;
+    border-top-right-radius: 20px;
+    height: 189px;
+
+}
+.ticket_img {
+    flex: 0 0 25%;
+}
+.ticket_img>img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0.5px #000;
+}
+.ticket_information {
+    flex: 0 0 45%;
+    margin: 20px 0 0 40px;
+    color: #000;
+}
+.ticket_price {
+    flex: 0 0 25.8%;
+}
+
+.ticket_name {
+    margin-bottom: 4px;
+    color: #0a7ac0;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.ticket_star {
+    font-size: 10px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.ticket_infor {
+    
+}
+.ticket_price {
+    /* background-color: beige; */
+    margin: 64px 0 0 41px;
+    color: #000;
+}
+.price_old {
+    margin-bottom: 4px;
+    text-decoration: line-through;
+    color: #000;
+}
+.price_new {
+    margin-bottom: 12px;
+}
+.car_rental {
+    background-color: #0094f3;
+    color: #fff;
+    padding: 6px 18px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+.main_seat_color {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.ticket_seats {
+    color: #000;
+
+}
+.ticket_color {
+    color: #0a7ac0;
+}
+.car_day_quantity label{
+    font-size: 15px;
+
+}
+.car_day_quantity input{
+    width: 30px;
+    padding: 4px 2px 4px 9px;
+    
+}.car_day_quantity input::placeholder{
+    
+    
+}
+
+
+
+

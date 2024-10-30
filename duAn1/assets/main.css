@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* phần header */
+header{
+    background-color: #0094f3;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 0 2px #333;
+    
+}
+#header h1{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+    line-height: 65px;
+    cursor: pointer;
+  
+}
+.plan{
+    list-style: none;
+    margin-top: -20px;
+    cursor: pointer;
+  
+}
+.nav{
+    text-decoration: none;
+    color: #fff;
+}
+.chuyenbay{
+    display: flex;
+    margin-left: 437px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.chuyenbay li{
+    margin-left: 15px;
+}
+.hotel{
+    display: flex;
+    margin-left: 700px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.hotel li{
+    margin-left: 15px;
+}
+
+.car{
+    display: flex;
+    margin-left: 950px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.car li{
+    margin-left: 15px;
+}
+.sanbay{
+    display: flex;
+    margin-left: 1060px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.sanbay li{
+    margin-left: 15px;
+}
+.button{
+    position: absolute;
+    top: 35px;
+    right: 48px;
+    position: fixed;
+    cursor: pointer;
+}
+.header_img {
+    transform: translate(1365px, -39px);
+    color: #0094f3;
+    font-size: 13px;
+    background-color: #fff;
+    width: 30px;
+    border-radius: 23px;
+    padding: 6.5px 9px;
+    position: relative;
+}
+.header_img:hover .header_img_chua{
+    display: block;
+}
+
+.header_img_chua{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 132px;
+    height: 69px;
+    box-shadow: 0 0 1px #333;
+    top: 36px;
+    left: -2px;
+    display: none;
+    
+}
+.admin:hover {
+    background-color: darkgrey;
+    
+
+}
+.logout:hover {
+    background-color: darkgrey;
+
+}
+.admin {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 9px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.logout {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 9px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.bridge{
+    width: 80px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    left: -2px;
+
+}
+
+.button .dangki{
+    text-decoration: none;
+    color: #0094f3;
+    background-color: #fff;
+    border: 1px solid #0094f3;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 6px 14px;
+   
+}
+.button .dangki:hover{
+    background-color: #dbdbdb;
+
+}
+.button .dangnhap{
+    text-decoration: none;
+    color: #0094f3;
+    background-color: #fff;
+    border: 1px solid #0094f3;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 6px 14px;
+    
+    
+}
+.button .dangnhap:hover{
+    background-color: #dbdbdb;
+}
+/* slider */
+.slider-show{
+    width: 65%;
+    margin: 60px auto 0 auto;
+    overflow: hidden;
+    height: 500px;
+    box-shadow: 0 0 1px #000;
+}
+.list-imgs{
+    display: flex;
+}
+.list-imgs img{
+    width: 100%;
+    flex: 0 0 100%;
+} 
+.left{
+    position: absolute;
+    top: 400px;
+    left: 182px;
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+
+} 
+ .right{
+    position: absolute;
+    top: 400px;
+    right: 184px;
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}
+.img_slide{
+
+}
+
+/* search */
+.timKiem_main {
+    background-color: #fff;
+    padding: 2px;
+    height: 40px;
+    border: 1px solid #0094f3;
+    border-radius: 10px;
+    width: 28%;
+    transform: translate(828px, -26px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.timKiem_main_child1 {
+    width: 136px;
+    border: 1px solid #0094f3;
+    flex: 0 0 79%;
+    padding: 6px 0;
+    border-radius: 8px;
+    margin-right: 3px;
+    padding-left: 4px;
+    color: #0094f3;
+    outline-color: #0094f3;
+}
+.timKiem_main_child2 {
+    flex: 0 0 20%;
+    background-color: #0094f3;
+    color: #fff;
+    border: none;
+    padding: 6px 0;
+    border-radius: 8px;
+}
+::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.mayBay{
+    width: 12px;
+    height: 12px;
+    transform: translate(200px, 0);
+}
+
+
+/* search */
+.nd{
+    margin-top: 150px;
+    width: 65%;
+    margin-left: 262px;
+    
+}
+
+
+
+
+
+
+

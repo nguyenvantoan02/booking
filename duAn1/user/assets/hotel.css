@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+
+
+}
+.hotel_main {
+
+}
+.hotel_lienKet {
+}
+.chua_dieuHuong {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px 30px 70px;
+    font-size: 22px;
+    
+}
+.chua_dieuHuong1 {
+    color: #0094f3;
+}
+.chua_dieuHuong2 {
+    color: #0094f3;
+    font-size: 16px;
+}
+.hotel_chua_lienKet {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 1px solid #0094f3;
+    padding: 4px 0;   
+    font-size: 15px;                                                                                              
+}
+.hotel_main h1{
+    margin-bottom: 50px;
+    
+}
+.hotel_main h3{
+
+    /* border-bottom:1px solid #0094f3; */
+}
+.hotel_contents{
+    padding: 80px 0 80px 80px;
+    /* margin: 0 70px; */
+    /* background-color: #1ab4ed; */
+    background-image: url('https://cdn0.agoda.net/images/EmailMarketing/PIOps/BLUE/BLUE5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 600px;
+    color: #fff;
+    position: relative;
+}
+.hotel_chua_lienKet1 {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0 0 0 4px;
+}
+.hotel_chua_lienKet2 {
+    border: 1px solid #0094f3;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 4px;
+}
+.hotel_img_lienKet{
+    margin-left: 5px;
+}
+.hotel_day_book{
+    flex: 0 0 19%;
+}
+.hotel_persons {
+}
+.hotel_rooms {
+}
+form{
+    margin-left: 145px;
+    margin-right: 70px;
+    padding: 12px 4px 12px 8px;
+    width: 80%;
+    position: absolute;
+    top: 501px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.hotel_day_book{
+    flex: 0 0 19%;
+    
+}
+.hotel_day_book>input{
+    padding: 4px 8px;
+    
+}
+
+.hotel_day_quantity>input{
+    width: 30px;
+    padding: 3px 2px 3px 9px;
+}
+.hotel_day_quantity>input::placeholder{
+    /* margin-left: 4px; */
+    /* padding-left: 6px; */
+}
+.hotel_day_quantity>label{
+    font-size: 14px;
+}
+
+
+.hotel_day_quantity{
+    flex: 0 0 20%;
+}
+
+.hotel_day_book>label{
+    font-size: 14px;
+    
+}
+select {
+    /* Reset các kiểu giao diện mặc định */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Thay đổi kiểu biểu tượng */
+    background-image: none;
+    color: #333;
+    flex: 0 0 20%;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #666;
+    font-weight: 600;
+    margin-left: 4px;
+}
+ 
+label{
+    margin-left: 22px;
+    color: #333;
+    font-weight: 600;
+    /* text-shadow: 0 0 1px #fff; */
+}
+.hotel_submit{
+    width: 45.5%;
+    padding: 8px;
+    border: none;
+    background-color: #1ab4ed;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 314px;
+    font-weight: 700;
+}.hotel_submit:hover{
+    opacity: 0.8;
+}
+

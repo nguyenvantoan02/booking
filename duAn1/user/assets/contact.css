@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+    margin: auto;
+    height: 460px;
+    width: 60%;
+    /* box-shadow: 0 0 1px #2000f3; */
+    background-color: #0094f3;
+    color: #333;
+}
+.contact_main {
+    
+}
+.contact_hd{
+    font-size: 20px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    text-align: center;
+    /* color: #fff; */
+    font-weight: 700;
+}
+.contact_userName {
+    margin-left: 200px;
+    font-size: 15px;
+    color: #333;
+}
+.contact_email {
+    margin-left: 200px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+}
+.contact_contents {
+    margin-left: 200px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+}
+.contact_tel{
+    margin-left: 200px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+}
+#tel{
+    margin-left: 54px;
+    resize: none;  
+    padding: 4px 4px;
+    outline-color: #fff;
+    border-color: #333;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+#contents{
+    margin-left: 200px;
+    resize: none;  
+    padding: 6px 4px;
+    border-color: #333;
+    border-color: #fff;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+#userName{
+    margin-bottom: 20px;
+    margin-left: 4px;
+    padding: 6px 4px;
+    width: 35%;
+    border-color: #333;
+    border: 1px solid #fff;
+}
+#email{
+    margin-bottom:20px;
+    margin-left: 37px;
+    padding: 6px 4px;
+    width: 35%;
+    border-color: #333;
+    border: 1px solid #fff;
+}
+::placeholder{
+    padding-left: 4px;
+    font-size: 12px;
+    color: #333;
+}
+#send{
+    margin-left: 550px;
+    margin-top: 15px;
+    padding: 6px 14px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}

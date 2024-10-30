@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*dangKi and đăng nhập*/
+.dangKi{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #000;
+    padding-top: 50px;
+
+}
+.dangKi_comeback{
+    color: #0094f3;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 100px;
+    
+}
+.dangKi_main{
+    background-color: #fff;
+    width: 24%;
+    height: 400px;
+    margin: auto;
+    padding: 26px;
+    border-radius: 5px;
+    margin-top: 60px;
+    border: 1px solid #0094f3;
+    box-shadow: 2px 0 8px #0094f3;
+}
+.dangKi_main>label{
+    font-size: 14px;
+}
+.dangKi_hd{
+    text-align: end;
+    margin-bottom: 10px;
+}
+#Email , #PassWord , #PassWord_again{
+    padding: 6px 4px;
+    width: 100%;
+    margin: 8px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #0094f3;
+}
+.dangKi_chua{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+    align-items: center;
+}
+.dangKi_chua a{
+    text-decoration: none;
+    color: #0094f3;
+    font-size: 16px;
+}
+.dangKi_chua input{
+    padding: 6px 16px;
+    color:#fff;
+    background-color: #0094f3;
+    border: none;
+    font-size: 15px;
+    cursor: pointer !important;
+}
+.dangKi_chua input:hover{
+    opacity: 0.8;
+}
+::placeholder{
+    font-size: 12px;
+}
+.dangNhap_main{
+    background-color: #fff;
+    width: 24%;
+    height: 320px;
+    margin: auto;
+    padding: 26px;
+    border-radius: 5px;
+    margin-top: 60px;
+    border: 1px solid #0094f3;
+    box-shadow: 2px 0 8px #0094f3;
+}
+.close{
+    display: none;
+}
